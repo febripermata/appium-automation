@@ -1,0 +1,3 @@
+ok_button_update_popup: '//*[@resource-id="android:id/button1"]'
+test_button: '//*[@resource-id="com.example.android.basicnetworking:id/test_action"]'
+network_connected_text: '//*[contains(@text, "Network is connected")]'

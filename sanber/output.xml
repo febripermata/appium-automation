@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.0 (Python 3.12.3 on win32)" generated="2024-06-02T01:42:01.028274" rpa="false" schemaversion="5">
+<suite id="s1" name="Test-Mobile" source="C:\Users\ASUS\StudioProjects\mobile-app\open-flight\test-mobile.robot">
+<test id="s1-t1" name="User should be able to login with valid credential" line="35">
+<kw name="Open Application">
+<kw name="Open Application">
+<msg time="2024-06-02T01:42:01.151277" level="FAIL">Keyword 'Open Application' expected 0 arguments, got 7.</msg>
+<arg>${REMOTE_URL}</arg>
+<arg>platformName=${PLATFORM_NAME}</arg>
+<arg>platformVersion=${PLATFORM_VERSION}</arg>
+<arg>deviceName=${DEVICE_NAME}</arg>
+<arg>appPackage=${APP_PACKAGE}</arg>
+<arg>appActivity=${APP_ACTIVITY}</arg>
+<arg>app=${APP}</arg>
+<status status="FAIL" start="2024-06-02T01:42:01.151277" elapsed="0.000000">Keyword 'Open Application' expected 0 arguments, got 7.</status>
+</kw>
+<status status="FAIL" start="2024-06-02T01:42:01.150280" elapsed="0.001994">Keyword 'Open Application' expected 0 arguments, got 7.</status>
+</kw>
+<kw name="Verify Home Screen Appears">
+<status status="NOT RUN" start="2024-06-02T01:42:01.153420" elapsed="0.000000"/>
+</kw>
+<kw name="Click Sign In Button On Home Screen">
+<status status="NOT RUN" start="2024-06-02T01:42:01.153420" elapsed="0.000000"/>
+</kw>
+<status status="FAIL" start="2024-06-02T01:42:01.149274" elapsed="0.005835">Keyword 'Open Application' expected 0 arguments, got 7.</status>
+</test>
+<status status="FAIL" start="2024-06-02T01:42:01.032270" elapsed="0.125352"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Test-Mobile">Test-Mobile</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2024-06-02T01:42:01.144571" level="ERROR">Error in file 'C:\Users\ASUS\StudioProjects\mobile-app\open-flight\test-mobile.robot' on line 2: Importing library 'AppiumLibrobrary' failed: ModuleNotFoundError: No module named 'AppiumLibrobrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\ASUS\StudioProjects\mobile-app\open-flight
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Scripts\robot.exe
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312
+  C:\Users\ASUS\AppData\Local\Programs\Python\Python312\Lib\site-packages</msg>
+</errors>
+</robot>
